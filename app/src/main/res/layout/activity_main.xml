@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- MVC - View -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/straight_wave"
+        android:contentDescription="@string/content_description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/section_title"
+        android:textSize="@dimen/large_font"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginBottom="@dimen/large_margin" />
+
+
+    <ListView
+        android:id="@+id/listViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:padding="@dimen/small_padding"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonCreateNote"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/large_margin"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:text="@string/btn_create_note"
+        android:textSize="@dimen/small_font" />
+
+</LinearLayout>
+
+
+
+

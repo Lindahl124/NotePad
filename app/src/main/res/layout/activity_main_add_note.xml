@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MVC - View -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context=".MainActivityAddNote">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/straight_wave"
+        android:contentDescription="@string/content_description" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/large_height"
+        android:layout_margin="@dimen/medium_margin"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        android:padding="@dimen/medium_padding">
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="@dimen/medium_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:autofillHints="title"
+            android:background="@color/light_gray"
+            android:hint="@string/text_title"
+            android:inputType="text"
+            android:padding="@dimen/small_padding" />
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="@dimen/medium_width"
+            android:layout_height="@dimen/medium_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/small_margin"
+            android:autofillHints="description"
+            android:background="@color/light_gray"
+            android:gravity="start|top"
+            android:hint="@string/text_description"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:padding="@dimen/small_padding" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddNewNote"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/large_margin"
+        android:backgroundTint="@color/black"
+        android:text="@string/btn_edit_new_note"
+        android:textSize="@dimen/small_font"
+        android:textStyle="bold" />
+
+</LinearLayout>

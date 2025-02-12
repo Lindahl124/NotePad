@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Activity Note -->
+
+    <string name="app_name">Application NotePad</string>
+    <string name="section_title">Anteckningar</string>
+    <string name="text_title">Titel</string>
+    <string name="text_description">Beskrivning</string>
+    <string name="btn_create_note">Skapa ny anteckning</string>
+    <string name="content_description">En bild som visar en rak våg</string>
+
+    <!-- Activity Add Note -->
+
+    <string name="btn_add_note">Lägg till anteckning</string>
+
+    <!-- Activity Main Edit Note -->
+
+    <string name="btn_edit_new_note">Spara anteckning</string>
+
+    <!-- List Item Note -->
+
+    <string name="content_description_ic_edit">En ikon som visar ett anteckningsblock med en penna</string>
+    <string name="content_description_ic_delete">En ikon som visar en papperskorg</string>
+
+
+</resources>
+
